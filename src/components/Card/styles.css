@@ -47,14 +47,17 @@
 	margin: 2px 0;
 }
 
+.video-channel {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	gap: 10px;
+}
+
 .video-channel,
 .video-views,
 .video-date {
 	margin: 5px 0;
 	color: #c0c0c0;
 	font-size: 0.9em;
-}
-
-.video-views,
-.video-date {
 }

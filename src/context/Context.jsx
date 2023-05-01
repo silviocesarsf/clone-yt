@@ -155,6 +155,16 @@ export const Context = ({ children }) => {
 			photo_url:
 				"https://yt3.googleusercontent.com/j3KiWcKZJjLjE3SDfiCC7j4jcAA4W-3tHjjiTA2UlmXONoDgsyLyAwZ_tOQYFyYQ0MoW0oBwXnk=s900-c-k-c0x00ffffff-no-rj",
 		},
+		{
+			name: "SerLiv",
+			photo_url:
+				"https://yt3.googleusercontent.com/sYTVAkymqVGjGMZjwIcZ9BhFXTy-oveVsR4UFiOpdkopcOvD0syjdH07XkJlttrAYUyGkTdrXw=s900-c-k-c0x00ffffff-no-rj",
+		},
+		{
+			name: "DevMedia",
+			photo_url:
+				"https://production.listennotes.com/podcasts/devcast-seu-podcast-de-tecnologia-devmedia-q_vEPgkfomh-kgZneTUlP24.1400x1400.jpg",
+		},
 	];
 
 	return (

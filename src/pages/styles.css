@@ -1,9 +1,16 @@
 .grid-videos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    position: absolute;
-    top: 18%;
-    left: 20%;
-    gap: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	place-items: center;
+	position: absolute;
+	top: 18%;
+	left: 20%;
+	gap: 20px;
+}
+
+@media (max-width: 1190px) {
+	.grid-videos {
+		grid-template-columns: 1fr 1fr;
+		left: 30%;
+	}
 }

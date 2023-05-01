@@ -33,6 +33,7 @@ import shortsIcon from "../../assets/youtube-shorts-icon.svg";
 import { SectionTitle } from "../../styles/Title/SectionTitle";
 import logo from "../../assets/youtube-logo.png";
 import { ContextProvider } from "../../context/Context";
+import { motion } from "framer-motion";
 
 const Sidebar = () => {
 	const [viewMorePlaylists, setViewMorePlaylists] = useState(false);
@@ -194,28 +195,23 @@ const Sidebar = () => {
 							className="sidebar_channel "
 						>
 							<MdOutlineExpandMore className="sidebar-icon" />
-							<div>Mostrar mais 299</div>
+							<div>Mostrar mais 3</div>
 						</Container>
 					</>
 				)}
-
 				{viewMoreChannels && (
 					<>
 						<Container gap="10px" className="sidebar_channel ">
-							<PhotoUser />
-							<div className="channel-name">Canal</div>
+							<PhotoUser backgroundPhoto="https://i.pinimg.com/200x150/ba/b1/28/bab12809a4bff8ab38cd667a5b8a5eb7.jpg" />
+							<div className="channel-name">Kayblack</div>
 						</Container>
 						<Container gap="10px" className="sidebar_channel ">
-							<PhotoUser />
-							<div className="channel-name">Canal</div>
+							<PhotoUser backgroundPhoto="https://mir-s3-cdn-cf.behance.net/projects/404/b1b5ef107227113.Y3JvcCw4OTgsNzAzLDE2MCw0MDQ.png" />
+							<div className="channel-name">Matuê</div>
 						</Container>
 						<Container gap="10px" className="sidebar_channel ">
-							<PhotoUser />
-							<div className="channel-name">Canal</div>
-						</Container>
-						<Container gap="10px" className="sidebar_channel ">
-							<PhotoUser />
-							<div className="channel-name">Canal</div>
+							<PhotoUser backgroundPhoto="https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/casimiro-miguel-direitos-de-transmissao-sbt-tnt-sports-divulgacao-grande_fixed_large.jpg" />
+							<div className="channel-name">Casimiro</div>
 						</Container>
 						<Container
 							onClick={handleViewMoreChannels}
@@ -223,7 +219,7 @@ const Sidebar = () => {
 							className="sidebar_channel "
 						>
 							<BiChevronUp className="sidebar-icon" />
-							<div>Mostrar menos </div>
+							<div>Mostrar menos</div>
 						</Container>
 					</>
 				)}

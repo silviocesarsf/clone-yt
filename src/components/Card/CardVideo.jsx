@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container } from "../../styles/Container/Container";
 import { PhotoUser } from "../../styles/PhotoUser/PhotoUser";
 import thumb from "../../assets/thumbnail-caze.jpg";
+import { GoVerified } from "react-icons/go";
 
 import "./styles.css";
 const CardVideo = ({
@@ -46,10 +47,10 @@ const CardVideo = ({
 					</a>
 					<a href="#" className="video-channel">
 						{channel}
+						{verified && <GoVerified />}
 					</a>
 					<Container justify="left" width="100%" gap="6px">
-						<div className="video-views">{views} </div>
-						<span>•</span>
+						<div className="video-views">{views} -</div>
 						<div className="video-date">{date}</div>
 					</Container>
 				</Container>
