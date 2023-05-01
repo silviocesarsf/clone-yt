@@ -1,21 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "../../styles/Container/Container";
 import { PhotoUser } from "../../styles/PhotoUser/PhotoUser";
 import thumb from "../../assets/thumbnail-caze.jpg";
 
 import "./styles.css";
-const CardVideo = () => {
+const CardVideo = ({
+	title,
+	channel,
+	duration,
+	views,
+	date,
+	verified,
+	thumbnail,
+	watched,
+}) => {
 	return (
 		<Container
 			dir="column"
 			justify="space-between"
-			width="320px"
+			width="340px"
 			className="video-card"
 		>
 			<div className="video-image">
-				<img src={thumb} alt="Casimiro" />
+				<img
+					style={{
+						borderBottom: watched ? "5px solid red" : "",
+					}}
+					src={thumbnail}
+					alt="Casimiro"
+				/>
 			</div>
-			<span className="video-duration">2:38:25</span>
+			<span className="video-duration">{duration}</span>
 			<Container
 				align="flex-start"
 				width="100%"
@@ -24,15 +39,18 @@ const CardVideo = () => {
 			>
 				<PhotoUser height="35px" width="35px" />
 				<Container className="infos-video" dir="column">
-					<a className="video-title">Papai voltou COMEDIAS</a>
-					<a href="#" className="video-channel">
-						ZackSB
+					<a className="video-title">
+						{title.length > 42
+							? `${title.slice(title, 42)}...`
+							: title}
 					</a>
-					<Container gap="5px">
-						<div className="video-views">
-							450 Visualizações{" "}
-						</div>
-						•<div className="video-date">Há 2 semanas</div>
+					<a href="#" className="video-channel">
+						{channel}
+					</a>
+					<Container justify="left" width="100%" gap="6px">
+						<div className="video-views">{views} </div>
+						<span>•</span>
+						<div className="video-date">{date}</div>
 					</Container>
 				</Container>
 			</Container>

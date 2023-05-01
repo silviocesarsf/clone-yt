@@ -4,14 +4,20 @@
 	top: 0;
 	left: 10px;
 	overflow-y: auto;
-	/* background-color: red; */
+}
+
+.sidebar::-webkit-scrollbar {
+	display: none;
 }
 
 .top-sidebar {
-	margin-bottom: 1rem;
+	position: absolute;
+	top: 1%;
+	width: 280px;
 }
 
 .sidebar-section {
+	transition: 0.5s;
 	padding-bottom: 1rem;
 	border-bottom: 1px solid #272727;
 	width: 100%;
@@ -38,15 +44,12 @@
 	background-color: #353535;
 }
 
+.text-hidded {
+	/* display: none; */
+}
+
 .active {
 	background-color: #272727;
 	font-weight: 400 !important;
 	color: #fff !important;
-}
-
-.sidebar-channel {
-}
-
-.channel-name {
-	text-transform: uppercase;
 }
