@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../../styles/Container/Container";
 import "./styles.css";
 import { PhotoUser } from "../../styles/PhotoUser/PhotoUser";
-import { AiFillHome } from "react-icons/ai";
+import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
 import {
 	MdOutlineSubscriptions,
 	MdOutlineVideoLibrary,
@@ -28,22 +28,45 @@ import { TbBrandYoutubeKids } from "react-icons/tb";
 import { SiYoutubestudio, SiYoutubemusic } from "react-icons/si";
 import { RxGear } from "react-icons/rx";
 import { IoIosHelpCircleOutline } from "react-icons/io";
+import shortsIcon from "../../assets/youtube-shorts-icon.svg";
+import { SectionTitle } from "../../styles/Title/SectionTitle";
+import logo from "../../assets/youtube-logo.png";
 
 const Sidebar = () => {
 	return (
 		<Container
 			height="100vh"
 			justify="flex-start"
-			width="270px"
+			width="210px"
 			className="sidebar"
 			dir="column"
 		>
+			<Container
+				justify="space-between"
+				width="100%"
+				className="top-sidebar"
+			>
+				<AiOutlineMenu className="icon" />
+				<img
+					className="logo-header"
+					style={{ maxWidth: "110px", marginRight: "30px" }}
+					src={logo}
+					alt=""
+				/>
+			</Container>
 			<div className="sidebar-section">
 				<div className="sidebar-item active">
 					<AiFillHome className="sidebar-icon" />
 					Início
 				</div>
-				<div className="sidebar-item">Shorts</div>
+				<div className="sidebar-item">
+					<img
+						style={{ maxHeight: "1.5em", color: "white" }}
+						src={shortsIcon}
+						alt=""
+					/>
+					Shorts
+				</div>
 				<div className="sidebar-item">
 					<MdOutlineSubscriptions className="sidebar-icon" />
 					Inscrições
@@ -76,9 +99,7 @@ const Sidebar = () => {
 				</div>
 			</div>
 			<div className="sidebar-section">
-				<div>
-					<p className="title-section">Inscrições</p>
-				</div>
+				<SectionTitle>Inscrições </SectionTitle>
 				<Container gap="10px" className="sidebar_channel ">
 					<PhotoUser />
 					<div className="channel-name">Canal</div>
@@ -101,9 +122,7 @@ const Sidebar = () => {
 				</Container>
 			</div>
 			<div className="sidebar-section">
-				<div>
-					<p className="title-section">Explorar</p>
-				</div>
+				<SectionTitle>Explorar </SectionTitle>
 				<div>
 					<BsFire className="sidebar-icon" />
 					Em alta
@@ -142,9 +161,7 @@ const Sidebar = () => {
 				</div>
 			</div>
 			<div className="sidebar-section">
-				<div>
-					<p className="title-section">Mais do Youtube</p>
-				</div>
+				<SectionTitle>Mais do Youtube </SectionTitle>
 				<div>
 					<BsYoutube className="sidebar-icon" />
 					Youtube Premium

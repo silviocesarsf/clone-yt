@@ -1,8 +1,14 @@
 .sidebar {
-	position: absolute;
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
 	left: 10px;
 	overflow-y: auto;
 	/* background-color: red; */
+}
+
+.top-sidebar {
+	margin-bottom: 1rem;
 }
 
 .sidebar-section {
@@ -12,16 +18,16 @@
 }
 
 .sidebar-section > div {
-	font-weight: 200;
 	height: 40px;
 	padding: 5px 20px;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	display: flex;
 	align-items: center;
 	justify-content: left;
 	cursor: pointer;
 	border-radius: 10px;
 	gap: 1.25rem;
+	color: #d4d4d4;
 }
 
 .sidebar-icon {
@@ -34,12 +40,8 @@
 
 .active {
 	background-color: #272727;
-	font-weight: 400;
-}
-
-.title-section {
-	font-weight: 400;
-	font-size: 1.2em;
+	font-weight: 400 !important;
+	color: #fff !important;
 }
 
 .sidebar-channel {

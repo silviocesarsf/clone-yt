@@ -1,0 +1,39 @@
+.carrousel {
+	position: absolute;
+	top: 13%;
+	left: 57%;
+	transform: translate(-50%, -50%);
+	min-height: 50px;
+	max-width: 75% !important;
+	flex-shrink: none !important;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.carrousel::before {
+    content: "";
+    position: absolute;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, transparent 80%, #0F0F0F);
+    pointer-events: none;
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carrousel-item {
+	padding: 5px 14px;
+	background-color: #272727;
+	border-radius: 8px;
+    margin: 0 10px;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+.carousel-active {
+    background-color: #fff;
+    color: black;
+}

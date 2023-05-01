@@ -2,11 +2,6 @@
 	padding: 10px 1rem;
 }
 
-.left-header .logo-header {
-	max-width: 110px;
-	cursor: pointer;
-}
-
 .icon-keyboard {
 	position: relative;
 	right: 3%;
@@ -50,4 +45,9 @@
 
 .icon:hover {
 	background-color: #272727;
+}
+
+.right-header {
+	position: absolute;
+	right: 5%;
 }

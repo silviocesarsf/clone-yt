@@ -14,13 +14,9 @@ const Header = () => {
 	return (
 		<Container
 			className="header"
-			justify="space-between"
+			justify="center"
 			width="100%"
 		>
-			<Container className="left-header">
-				<AiOutlineMenu className="icon" />
-				<img className="logo-header" src={logo} alt="" />
-			</Container>
 			<Container className="search-box_header">
 				<Input type="text" placeholder="Pesquisar" />
 				<div className="icon-keyboard">

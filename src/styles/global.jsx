@@ -27,5 +27,9 @@ export const GlobalStyles = createGlobalStyle`
         background: #b3b3b3;
         border-radius: 5px;
     }
+
+    a {
+        text-decoration: none;
+    }
     
 `;

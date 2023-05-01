@@ -1,0 +1,56 @@
+.video-card {
+	position: relative;
+	padding: 1rem 4px;
+	overflow: hidden;
+}
+
+.video-image img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.video-duration {
+	position: absolute;
+	right: 4%;
+	bottom: 36%;
+	background-color: #333333c9;
+	font-size: 0.8em;
+	padding: 2px 4px;
+	border-radius: 4px;
+	font-weight: 400;
+}
+
+.description-video {
+	margin-top: 5px;
+	font-family: "Inter";
+}
+
+.video-title {
+	max-width: 250px;
+	font-size: 1em;
+	/* background-color: red; */
+}
+
+.infos-video {
+	position: relative;
+	right: 15px;
+}
+
+.video-title,
+.video-channel {
+	width: 100%;
+	text-align: left;
+	margin: 2px 0;
+}
+
+.video-channel,
+.video-views,
+.video-date {
+	color: #c0c0c0;
+	font-size: 0.9em;
+}
+
+.video-views,
+.video-date {
+}
