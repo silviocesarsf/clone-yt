@@ -1,0 +1,50 @@
+.sidebar {
+	position: absolute;
+	left: 10px;
+	overflow-y: auto;
+	/* background-color: red; */
+}
+
+.sidebar-section {
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #272727;
+	width: 100%;
+}
+
+.sidebar-section > div {
+	font-weight: 200;
+	height: 40px;
+	padding: 5px 20px;
+	font-size: 0.9em;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	cursor: pointer;
+	border-radius: 10px;
+	gap: 1.25rem;
+}
+
+.sidebar-icon {
+	font-size: 1.5em;
+}
+
+.sidebar-section > div:hover {
+	background-color: #353535;
+}
+
+.active {
+	background-color: #272727;
+	font-weight: 400;
+}
+
+.title-section {
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.sidebar-channel {
+}
+
+.channel-name {
+	text-transform: uppercase;
+}
