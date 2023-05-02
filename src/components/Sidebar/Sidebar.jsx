@@ -29,7 +29,7 @@ import { SiYoutubestudio, SiYoutubemusic } from "react-icons/si";
 import { RxGear } from "react-icons/rx";
 import { BiChevronUp } from "react-icons/bi";
 import { IoIosHelpCircleOutline } from "react-icons/io";
-import shortsIcon from "../../assets/youtube-shorts-icon.svg";
+import shortsIcon from "../../assets/youtube-shorts-icon.png";
 import { SectionTitle } from "../../styles/Title/SectionTitle";
 import logo from "../../assets/youtube-logo.png";
 import { ContextProvider } from "../../context/Context";

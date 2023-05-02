@@ -5,14 +5,14 @@ import {
 	MdOutlineSubscriptions,
 	MdOutlineVideoLibrary,
 } from "react-icons/md";
-import shortsIcon from "../../assets/youtube-shorts-icon.svg";
+import shortsIcon from "../../assets/youtube-shorts-icon.png";
 import "./styles.css";
 
 const BottomBar = () => {
 	return (
 		<Container
 			className="bottom-bar"
-			height="60px"
+			height="65px"
 			width="100%"
 			justify="space-between"
 		>

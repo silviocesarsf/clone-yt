@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Home from "./pages/Home";
 import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/Sidebar";
 import BottomBar from "./components/BottomBar/BottomBar";
 import { useMediaQuery } from "react-responsive";
 
