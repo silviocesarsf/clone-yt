@@ -9,6 +9,10 @@ export const Input = styled.input`
 	border: 1px solid ${(props) => props.theme.colors.gray};
 	padding: 1rem;
 	position: relative;
-	left: 60px;
+	left: 30px;
 	border-radius: 20px 0px 0px 20px;
+
+	@media (max-width: 860px) {
+		width: 30vw;
+	}
 `;

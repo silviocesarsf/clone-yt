@@ -26,6 +26,7 @@ const Home = () => {
 							verified={video.verified}
 							thumbnail={video.thumbnail}
 							watched={video.watched}
+							photo={video.photo_url}
 						/>
 					))}
 			</div>

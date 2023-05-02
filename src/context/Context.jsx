@@ -11,6 +11,8 @@ export const Context = ({ children }) => {
 			duration: "38:02",
 			views: "23 mil visualizações",
 			date_published: "há 1 ano",
+			photo_url:
+				"https://rocketseat.gallerycdn.vsassets.io/extensions/rocketseat/rocketseatreactjs/3.0.2/1588456824702/Microsoft.VisualStudio.Services.Icons.Default",
 			thumbnail:
 				"https://i.ytimg.com/vi/X6klpqubyBw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDC6CFZeDNKUxkihcJl4iJH4uu09Q",
 			verified: false,
@@ -23,6 +25,8 @@ export const Context = ({ children }) => {
 			duration: "2:18:51",
 			views: "6,9 mil visualizações",
 			date_published: "há 3 dias",
+			photo_url:
+				"https://yt3.googleusercontent.com/DoWrbNZb_gkgIKj8PGjrs1QphLm6k1fPWWAzKq9xzxLa3xw2mJ7EUdwNvl9dbycnaT7MwkJD=s900-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/lq7b8uZULs4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBk7Lh6O8rQCg57kI35ZfoQqI0Lbw",
 			verified: false,
@@ -35,6 +39,8 @@ export const Context = ({ children }) => {
 			duration: "5:35",
 			views: "5,8 mil visualizações",
 			date_published: "Há 1 hora",
+			photo_url:
+				"https://yt3.googleusercontent.com/ytc/AGIKgqMl7u4nv58D6zfEoRVZDfqIp4HZ5kc6adX_A22I=s900-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/2iaWGjYhvdE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByrxAethMo1tPACeC3OaaeZinzFQ",
 			verified: true,
@@ -47,6 +53,8 @@ export const Context = ({ children }) => {
 			duration: "16:41",
 			views: "101 mil visualizações",
 			date_published: "Há 11 meses",
+			photo_url:
+				"https://media.licdn.com/dms/image/C5603AQGmr1EOhC1Gyw/profile-displayphoto-shrink_400_400/0/1613487379448?e=1687996800&v=beta&t=Z6Z-70Bz1D7Gy1k1z4QWx3F5A3pVi8rKpzAs5Q6NJtA",
 			thumbnail:
 				"https://i.ytimg.com/vi/m26jErLd5ds/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLaLlXDZ-G2CySCis18HLgZ-PbgQ",
 			verified: true,
@@ -59,6 +67,8 @@ export const Context = ({ children }) => {
 			duration: "12:12",
 			views: "6 mi de visualizações",
 			date_published: "há 4 anos",
+			photo_url:
+				"https://yt3.googleusercontent.com/ytc/AGIKgqO1V4n5r4JhkdWU5GvAUc1Vo3uB1q3_ko_0zDO7Rg=s900-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/R196Km88DzQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD5l3AcjWuVkjpt9NZZ_LVEurBXqA",
 			verified: true,
@@ -71,6 +81,8 @@ export const Context = ({ children }) => {
 			duration: "16:55",
 			views: "49 mil visualizações",
 			date_published: "há 2 anos",
+			photo_url:
+				"https://yt3.googleusercontent.com/z0Ccoolotr1Q4F2EaCIgaR4GWLAR_VCwP25QrTica_e9XV6x8-kuQx_qnqI1mnaOkYl6KkIL=s900-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/P2y1n_NyJy0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjChdAQpGV_2Ao1QA6dqM1BDd6gw",
 			verified: true,
@@ -83,6 +95,8 @@ export const Context = ({ children }) => {
 			duration: "08:01",
 			views: "8,9 mil visualizações",
 			date_published: "há 4 anos",
+			photo_url:
+				"https://yt3.googleusercontent.com/hVYS_V0aIwSWhuFAbDzjymXQ1_s8ivbFIEm_wFLQkMHr5R41WDiB4jyypT0AS25pT_Iww9pDE50=s176-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/p1sGc4EHQtM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBY0RZRV4ZGeRE7XAgTuvKU3dn_Bg",
 			verified: false,
@@ -95,6 +109,8 @@ export const Context = ({ children }) => {
 			duration: "43:35",
 			views: "15 visualizações",
 			date_published: "há 1 dia",
+			photo_url:
+				"https://yt3.googleusercontent.com/wDvf0WcxEjEjUJ_RI-qP3SoxKdF4z3tw9SyfUcm4Kll7ewXpR4Oms8kNOLsRxMvTRocC2nSJZiQ=s176-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/awUE9p5ITQA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCPveBl6N8LCrYpTWeSU9msDr9yw",
 			verified: false,
@@ -107,6 +123,7 @@ export const Context = ({ children }) => {
 			duration: "18:44",
 			views: "1,3 mil visualizações",
 			date_published: "há 3 meses",
+			photo_url: "https://yt3.googleusercontent.com/oe66EhKcgq17C06jpmUXIVQp1v36wMECSpL3towretQi9c6XywFxkSKa8-D6D8dZF0BXC0zddA=s176-c-k-c0x00ffffff-no-rj",
 			thumbnail:
 				"https://i.ytimg.com/vi/HLgY_Cmqe14/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZvAheDx2agEeeGpZZXYIEH47voQ",
 			verified: true,

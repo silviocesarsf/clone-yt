@@ -7,4 +7,8 @@ export const Section = styled.section`
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	@media (max-width: 700px) {
+		padding: 10px;
+	}
 `;

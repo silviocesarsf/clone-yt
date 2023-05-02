@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Container } from "../../styles/Container/Container";
 import "./styles.css";
 import { PhotoUser } from "../../styles/PhotoUser/PhotoUser";
-import { AiFillHome, AiOutlineMenu } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";
 import {
 	MdOutlineSubscriptions,
 	MdOutlineVideoLibrary,
@@ -52,30 +52,12 @@ const Sidebar = () => {
 	return (
 		<Container
 			height="100vh"
-			justify="flex-start"
+			justify="space-between"
 			className="sidebar"
 			dir="column"
+			style={{ marginTop: "4rem" }}
 		>
-			<Container
-				justify="space-between"
-				width="100%"
-				className="top-sidebar"
-			>
-				<AiOutlineMenu className="icon" />
-				<img
-					className="logo-header"
-					style={{
-						maxWidth: "110px",
-						marginRight: "30px",
-						position: "relative",
-						right: "40px",
-					}}
-					src={logo}
-					alt=""
-				/>
-			</Container>
 			<div
-				style={{ marginTop: "3rem" }}
 				className="sidebar-section"
 			>
 				<div className="sidebar-item active">

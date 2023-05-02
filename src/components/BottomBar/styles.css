@@ -1,0 +1,19 @@
+.bottom-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	/* background-color: red; */
+	padding: 10px;
+	border-top: 1px solid #3d3d3d;
+	background-color: #0f0f0f;
+	z-index: 12;
+}
+
+.icon-mobile {
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.icon-mobile p {
+	font-size: 0.7em;
+}

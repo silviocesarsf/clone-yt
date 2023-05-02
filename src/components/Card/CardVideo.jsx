@@ -3,8 +3,9 @@ import { Container } from "../../styles/Container/Container";
 import { PhotoUser } from "../../styles/PhotoUser/PhotoUser";
 import thumb from "../../assets/thumbnail-caze.jpg";
 import { GoVerified } from "react-icons/go";
-
 import "./styles.css";
+import ContentLoader from "react-content-loader";
+
 const CardVideo = ({
 	title,
 	channel,
@@ -14,6 +15,8 @@ const CardVideo = ({
 	verified,
 	thumbnail,
 	watched,
+	props,
+	photo
 }) => {
 	return (
 		<Container
@@ -28,7 +31,7 @@ const CardVideo = ({
 						borderBottom: watched ? "5px solid red" : "",
 					}}
 					src={thumbnail}
-					alt="Casimiro"
+					alt="Thumbnail"
 				/>
 			</div>
 			<span className="video-duration">{duration}</span>
@@ -38,7 +41,7 @@ const CardVideo = ({
 				justify="space-between"
 				className="description-video"
 			>
-				<PhotoUser height="35px" width="35px" />
+				<PhotoUser backgroundPhoto={photo} height="35px" width="35px" />
 				<Container className="infos-video" dir="column">
 					<a className="video-title">
 						{title.length > 42

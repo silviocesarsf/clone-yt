@@ -6,11 +6,27 @@
 	top: 18%;
 	left: 20%;
 	gap: 20px;
+	padding-bottom: 5rem;
 }
 
 @media (max-width: 1190px) {
 	.grid-videos {
 		grid-template-columns: 1fr 1fr;
 		left: 30%;
+	}
+}
+
+@media (max-width: 1010px) {
+	.grid-videos {
+		grid-template-columns: 1fr;
+		left: 40%;
+	}
+}
+
+@media (max-width: 700px) {
+	.grid-videos {
+		grid-template-columns: 1fr;
+		left: 50%;
+		transform: translate(-50%);
 	}
 }

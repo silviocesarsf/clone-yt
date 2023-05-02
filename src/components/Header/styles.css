@@ -1,5 +1,18 @@
 .header {
 	padding: 10px 1rem;
+	background-color: #0f0f0f;
+	z-index: 20;
+	position: fixed;
+}
+
+.logo-header {
+	width: 110px;
+}
+
+.search-box_header {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .icon-keyboard {
@@ -27,8 +40,8 @@
 .icon-voice {
 	position: relative;
 	right: -2%;
-    background-color: #1d1d1d;
-    border-radius: 100%;
+	background-color: #1d1d1d;
+	border-radius: 100%;
 }
 
 .icon {
@@ -50,4 +63,32 @@
 .right-header {
 	position: absolute;
 	right: 5%;
+}
+
+@media (max-width: 700px) {
+	.header {
+		padding: 10px;
+	}
+
+	.search-box_header input,
+	.icon-keyboard,
+	.icon-voice,
+	.right-header .icon {
+		display: none;
+	}
+
+	.search-box_header {
+		position: static;
+	}
+
+	.icon-search {
+		position: relative;
+		right: 50px;
+		background-color: transparent;
+		width: initial;
+		height: initial;
+		/* background-color: red; */
+		display: inline;
+		border-radius: 0;
+	}
 }
