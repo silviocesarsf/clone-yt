@@ -12,7 +12,6 @@ const Home = () => {
 	return (
 		<Section>
 			<Sidebar />
-			<Carrousel />
 			<div className="grid-videos">
 				{videosRecommended &&
 					videosRecommended.map((video) => (

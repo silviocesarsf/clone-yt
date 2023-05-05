@@ -9,6 +9,7 @@ import { MdKeyboardVoice } from "react-icons/md";
 import logo from "../../assets/youtube-logo.png";
 import { Input } from "../../styles/Input/Input";
 import { PhotoUser } from "../../styles/PhotoUser/PhotoUser";
+import Carrousel from "../Carrousel/Carrousel";
 
 const Header = ({ isMobile }) => {
 	return (
@@ -47,6 +48,7 @@ const Header = ({ isMobile }) => {
 				<AiOutlineBell className="icon" />
 				<PhotoUser />
 			</Container>
+			<Carrousel />
 		</Container>
 	);
 };
