@@ -59,7 +59,7 @@
 
 @media (max-width: 700px) {
 	.carrousel {
-		top: 8%;
+		top: 11%;
 		left: 50%;
 		max-width: 100% !important;
 	}
